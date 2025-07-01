@@ -12,20 +12,13 @@
 
     <h2>GitHub Search</h2>
 
-    <form id='github-form'>
-      <input id='search' type='text' name='search'>
-      <input type='submit' name='submit'/>
+    <form id="search-form">
+      <input type="text" id="search" placeholder="Search GitHub users or repos" required />
+      <button type="submit">Search</button>
+      <button type="button" id="toggle-search">Search Repos</button>
     </form>
-
-    <div id='github-container'>
-      <ul id='user-list'>
-
-      </ul>
-
-      <ul id='repos-list'>
-
-      </ul>
-    </div>
+    <div id="results"></div>
+    <div id="repos"></div>
 
   </div>
 
